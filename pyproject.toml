@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sequestra"
+version = "1.0.0"
+description = "Reference-benchmarked small-molecule-binding protein design orchestration"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{name = "Olanrewaju Ayodeji Durojaye"}]
+dependencies = []
+readme = "README.md"
+keywords = ["protein-design", "BoltzGen", "Boltz-2", "DLKcat", "CatPred"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.scripts]
+sequestra = "sequestra.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

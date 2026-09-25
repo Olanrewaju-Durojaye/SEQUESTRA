@@ -1,0 +1,19 @@
+{
+  "project_dir": "/absolute/path/to/new-project",
+  "project_name": "example-project",
+  "reference_mode": "catalytic-reference",
+  "reference_pdb": "/absolute/path/to/reference.pdb",
+  "reference_chain": "A",
+  "complete_fasta": "/absolute/path/to/reference.fasta",
+  "ligand_name": "ligand name",
+  "ligand_ccd": "CCD",
+  "ligand_smiles": "ISOMERIC_SMILES",
+  "ligand_inchikey": null,
+  "design_min_length": 50,
+  "design_max_length": 100,
+  "number_of_designs": 100,
+  "affinity_comparison_margin": 0.0,
+  "catalytic_liability_enabled": true,
+  "kcat_unit": "s^-1",
+  "km_unit": "M"
+}

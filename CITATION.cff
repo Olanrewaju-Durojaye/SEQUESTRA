@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use SEQUESTRA, please cite the software release and associated manuscript."
+title: "SEQUESTRA"
+type: software
+version: 1.0.0
+date-released: 2026-09-24
+authors:
+  - family-names: Durojaye
+    given-names: Olanrewaju Ayodeji
+license: MIT
+abstract: "Reference-benchmarked orchestration for small-molecule-binding protein design using BoltzGen, DLKcat, CatPred and Boltz-2."
+keywords:
+  - protein design
+  - small-molecule binding
+  - BoltzGen
+  - Boltz-2
+  - computational biology

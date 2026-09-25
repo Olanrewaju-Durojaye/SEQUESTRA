@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "note": "Run 'sequestra setup' to create ~/.config/sequestra/sequestra.config.json; do not use these placeholders directly.",
+  "conda_executable": "/path/to/conda",
+  "environments": {
+    "sequestra": "/path/to/envs/sequestra",
+    "boltzgen": "/path/to/envs/boltzgen",
+    "dlkcat": "/path/to/envs/dlkcat",
+    "catpred": "/path/to/envs/catpred",
+    "boltz2": "/path/to/envs/boltz2"
+  },
+  "repositories": {
+    "sequestra": "/path/to/SEQUESTRA"
+  },
+  "predictors": {
+    "dlkcat": {"repository": "/path/to/DLKcat", "adapter": "native"},
+    "catpred": {
+      "repository": "/path/to/CatPred",
+      "data_root": "/path/to/catpred/data",
+      "adapter": "native",
+      "use_gpu": true
+    }
+  },
+  "boltz2": {
+    "devices": 1,
+    "accelerator": "gpu",
+    "use_msa_server": true,
+    "use_potentials": false
+  },
+  "boltzgen": {
+    "num_workers": 0,
+    "minimum_available_ram_gib": 6.0,
+    "memory_poll_seconds": 2.0
+  },
+  "structural_confidence": {
+    "minimum_confidence_score": 0.7,
+    "minimum_ligand_iptm": 0.6,
+    "minimum_complex_iplddt": 0.7
+  },
+  "minimum_resources": {
+    "free_disk_gib": 40,
+    "available_ram_gib": 12,
+    "gpu_memory_mib": 16000
+  }
+}
