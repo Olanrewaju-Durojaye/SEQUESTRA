@@ -328,3 +328,21 @@ Keep the archive checksum with the Zenodo description.
 Normal users should prefer `sequestra launch` and `sequestra run`. For
 automation and stage-specific commands, see [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md)
 and `examples/project_answers.example.json`.
+
+---
+
+## For questions
+Please contact the corresponding authors:
+
+Corresponding authors:
+    Olanrewaju Ayodeji Durojaye;
+    Rachid Daoud
+
+Institution:
+    Chemical and Biochemical Sciences, Green Process Engineering,
+    University Mohammed VI Polytechnic,
+    43150 Ben Guerir, Morocco
+
+Email:
+    olanrewaju.ayodeji-durojaye-ext@um6p.ma;
+    rachid.daoud@um6p.ma
