@@ -255,7 +255,7 @@ do not replace system libraries or modify unrelated environments.
 
 ### Project not found
 
-Enter the project directory—or one of its subdirectories—and run
+Enter the project directory (or one of its subdirectories) and run
 `sequestra run` again.
 
 ## 10. Find and interpret outputs
