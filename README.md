@@ -1,5 +1,7 @@
 # SEQUESTRA
 
+<img width="2172" height="724" alt="sequestra-logo" src="https://github.com/user-attachments/assets/83d8eb16-1f9b-4d92-80de-bdf9aed510f9" />
+
 **Reference-benchmarked orchestration for small-molecule-binding protein design**
 
 SEQUESTRA connects BoltzGen, DLKcat, CatPred and Boltz-2 in a resumable,
