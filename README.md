@@ -15,7 +15,7 @@ SEQUESTRA directly orchestrates BoltzGen, DLKcat, CatPred and Boltz-2 while keep
 
 ## Workflow
 
-1. Generate protein–ligand designs with BoltzGen.
+1. Generate protein-ligand designs with BoltzGen.
 2. Rank designs by BoltzGen affinity probability and retain a user-selected
    top percentage.
 3. In catalytic-reference mode, screen catalytic liability with DLKcat and
