@@ -305,10 +305,6 @@ large upstream model checkpoints are your own work:
 - Dates of public MSA-server access and disclosure of transient failures.
 - A statement that predictions lack experimental validation.
 
-For the 6O0F pilot, explicitly report manual removal of chain-A terminal
-expression-tag residues `SNSLEVLFQ`, retain both PDB versions, and provide their
-SHA-256 checksums. Do not describe this as removal of native saxiphilin
-sequence.
 
 ## 12. Archive the completed project
 
@@ -321,11 +317,10 @@ tar -czf project-name.tar.gz project-name/
 sha256sum project-name.tar.gz > project-name.tar.gz.sha256
 ```
 
-Keep the archive checksum with the Zenodo description.
 
 ## 13. Advanced and scripted operation
 
-Normal users should prefer `sequestra launch` and `sequestra run`. For
+Users should prefer `sequestra launch` and `sequestra run`. For
 automation and stage-specific commands, see [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md)
 and `examples/project_answers.example.json`.
 
