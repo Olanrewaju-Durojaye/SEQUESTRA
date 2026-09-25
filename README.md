@@ -151,3 +151,7 @@ Citation metadata are provided in [CITATION.cff](CITATION.cff). SEQUESTRA is
 released under the [MIT License](LICENSE). Please report reproducible software
 problems through the repository issue tracker without uploading confidential
 sequences or unpublished structures.
+
+## Zenodo record citation
+
+Durojaye, O. A., Baammi, S., Moussaoui, M., EL HADAD, S., Alimoussa, L., Benhida, R., & Daoud, R. (2026). Pilot datasets for SEQUESTRA: reference-benchmarked de novo protein design in catalytic- and non-catalytic-reference modes [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.22948446
